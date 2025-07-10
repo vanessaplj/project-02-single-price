@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github - Project 02 - Files](https://github.com/vanessaplj/project-02-single-price)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages - Project 02 - Single Price](https://vanessaplj.github.io/project-02-single-price/)
 
 ## My process
 
