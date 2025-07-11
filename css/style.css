@@ -1,49 +1,52 @@
 /*--GENERAL----------------------------------------------------------------------*/
+:root{
+    font-size: 16px;
+}
 body {
     background: hsl(204, 43%, 93%);
     font-family: "Karla", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 42rem;
 }
 main {
     background: white;
-    border-radius: 10px;
-    width: 50vw;
-    box-shadow: 5px 5px 25px #a6a6a6;
+    border-radius: .75rem;
+    width: 40rem;
+    box-shadow: 0.3rem 0.3rem 1.5rem #a6a6a6;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         display: block;
     }
     main {
-        width: 80vw;
-        margin: 10vh auto;
+        width: 20rem;
+        margin: 5rem auto;
     }
 }
 /*--SECTION 1----------------------------------------------------------------------*/
 .sec1 {
-    padding: 5vh;
+    padding: 2rem;
 }
 h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: hsl(179, 62%, 43%);
-    margin-bottom: 3vh;
+    margin-bottom: 1.5rem;
 }
 h2 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    margin-bottom: 3vh;
+    margin-bottom: 1.5rem;
 }
 .h21 {
     color: hsl(71, 73%, 54%);
-    margin-bottom: 1vh;
+    margin-bottom: 0.5rem;
     font-weight: 400;
 }
 p {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .p1 {
     color: hsl(218, 22%, 67%)
@@ -56,32 +59,46 @@ p {
     background: hsl(179, 62%, 43%);
     color: white;
     align-content: center;
-    padding: 5vh;
+    padding: 2rem;
     width: 100%;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 0.75rem;
 }
-h6 {
-    font-size: 32px;
+h3 {
+    font-size: 2rem;
+}
+.month{
+    color:hsl(204, 43%, 93%); 
+    font-weight: 200;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.access{
+    color:hsl(204, 43%, 93%);
 }
 button {
     background-color: hsl(71, 73%, 54%);
     border: 1px solid transparent;
-    border-radius: 10px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    border-radius: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width:100%;
     color: white;
-    box-shadow: 3px 3px 25px #7e7e7e;
+    box-shadow: 0.2rem 0.2rem 1.5rem #7e7e7e;
 }
-@media screen and (max-width:800px){
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width:768px){
     .part2{
     display:block;
     }
     .sec2 {
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0rem;
     }
     button{
-        margin-top: 2vh;
+        margin-top: 1rem;
     }
 }
 /*--SECTION 3----------------------------------------------------------------------*/
@@ -89,12 +106,12 @@ button {
     background: hsl(179, 62%, 43%, 0.8);
     color: white;
     align-content: center;
-    padding: 5vh;
+    padding: 2rem;
     width: 100%;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0.75rem;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .sec3 {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 0.75rem;
     }
 }
